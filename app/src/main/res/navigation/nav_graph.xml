@@ -1,0 +1,12 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@id/eventListFragment">
+
+    <fragment
+        android:id="@+id/eventListFragment"
+        android:name="com.example.pep.EventListFragment" />
+
+    <fragment
+        android:id="@+id/addEventFragment"
+        android:name="com.example.pep.AddEventFragment" />
+</navigation>
